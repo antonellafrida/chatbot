@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soporte Técnico Inteligente</title>
+    <link rel="stylesheet" href="../static/styles.css">
+</head>
+<body>
+    <div class="chat-container">
+        <header>Asistente de Soporte IA</header>
+        <div id="chatbox">
+            <div class="bot-msg">¡Hola! Soy tu asistente inteligente. ¿En qué puedo ayudarte hoy?</div>
+            <div class="bot-msg">
+                <button onclick="enviarConsulta('tengo problemas con mi conexión a internet')">Problemas de conexión</button>
+                <button onclick="enviarConsulta('olvidé mi contraseña de acceso')">Recuperar contraseña</button>
+                <button onclick="enviarConsulta('mi impresora no funciona')">Error de impresora</button>
+                <button onclick="enviarConsulta('necesito hablar con un humano')">Contactar soporte</button>
+            </div>
+        </div>
+        <div class="input-area">
+            <input type="text" id="userInput" placeholder="Escribe tu duda aquí...">
+            <button onclick="getBotResponse()">Enviar</button>
+        </div>
+    </div>
+
+    <script src="../static/script.js"></script>
+</body>
+</html>

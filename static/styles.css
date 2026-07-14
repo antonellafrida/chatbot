@@ -1,0 +1,10 @@
+body { background-color: #f0f2f5; font-family: 'Segoe UI', sans-serif; display: flex; justify-content: center; padding-top: 50px; }
+.chat-container { width: 350px; background: white; border-radius: 15px; box-shadow: 0 5px 15px rgba(0,0,0,0.1); overflow: hidden; }
+header { background: #007bff; color: white; padding: 15px; text-align: center; font-weight: bold; }
+#chatbox { height: 400px; padding: 15px; overflow-y: auto; display: flex; flex-direction: column; gap: 10px; }
+.bot-msg { background: #e9ecef; padding: 10px; border-radius: 10px; align-self: flex-start; max-width: 85%; }
+.user-msg { background: #007bff; color: white; padding: 10px; border-radius: 10px; align-self: flex-end; max-width: 85%; }
+.input-area { padding: 10px; display: flex; gap: 5px; border-top: 1px solid #ddd; }
+input { flex: 1; padding: 10px; border: 1px solid #ccc; border-radius: 5px; }
+button { padding: 8px; background: #007bff; color: white; border: none; border-radius: 5px; cursor: pointer; margin-bottom: 5px; width: 100%; }
+button:hover { background: #0056b3; }
